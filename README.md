@@ -66,3 +66,12 @@ lab on contributing to Rails. Please see that branch for the git commands.
 #### Reflog
 
 `git reflog`
+
+### Using Git to Find Where Code was Introduced
+
+#### Bisect
+
+`git bisect start`
+`git bisect bad`
+`git bisect good ref`
+`git bisect reset`
