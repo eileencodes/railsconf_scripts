@@ -51,9 +51,18 @@ lab on contributing to Rails. Please see that branch for the git commands.
 
 ### Interactive Rebase
 
+`git rebase -i master`
+
 ### Undoing Mistakes in Git
 
 #### Reset
 
+`git reset --hard ref`
+
+`git reset --soft HEAD~N`
+
+`git reset --soft HEAD@{1}`
+
 #### Reflog
->>>>>>> Add README headings
+
+`git reflog`
