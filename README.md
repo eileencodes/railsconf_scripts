@@ -49,7 +49,17 @@ Checkout the `practicing-git` branch.
 The `practicing-git` branch is a branch for practicing git commands for my RailsConf
 lab on contributing to Rails. Please see that branch for the git commands.
 
-### Interactive Rebase
+### Rewriting Git History
+
+#### Amending
+
+`git commit --amend`
+
+#### Resolving Conflicts
+
+`git rebase master`
+
+#### Interactive Rebase
 
 `git rebase -i master`
 
