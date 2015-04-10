@@ -82,6 +82,9 @@ lab on contributing to Rails. Please see that branch for the git commands.
 #### Bisect
 
 `git bisect start`
+
 `git bisect bad`
+
 `git bisect good ref`
+
 `git bisect reset`
