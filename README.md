@@ -51,7 +51,7 @@ lab on contributing to Rails. Please see that branch for the git commands.
 
 ### Interactive Rebase
 
-### Undoing Things
+### Undoing Mistakes in Git
 
 #### Reset
 
