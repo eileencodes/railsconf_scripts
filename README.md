@@ -39,7 +39,7 @@ To run:
 
 ```
 cd railsconf_git/
-bundle exec ruby railsconf_scripts/ar_script_name.rb
+bundle exec ruby ar_script_name.rb
 ```
 
 ## Practicing Git
