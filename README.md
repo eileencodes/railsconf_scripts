@@ -1,9 +1,19 @@
 # RailsConf Scripts
 
-## Executable Scripts
+This repo includes scripts for pracitcing the tools we will learn at RailsConf.
 
-In this repo there are Active Record executable scripts and a couple Ruby scripts
-for my lab at RailsConf 2015 on Contributing to Rails.
+First clone the repo, then install the cached gems:
+
+```
+cd railsconf_scripts
+
+# if using windows
+git checkout windows
+bundle install --local
+
+# if using mac/linux stay on msater
+bundle install --local
+```
 
 RailsConf talk description:
 
@@ -17,19 +27,20 @@ Additionally, we’ll create reproduction scripts for reporting issues and learn
 advanced git commands like bisect and squash. At the end of this session you’ll
 have the confidence to fix bugs and add features to Ruby on Rails.
 
-### Running the scripts
 
-Clone or move these scripts into your Rails directory because we will be running
-these inside the Rails repo.
+## Executable Scripts
+
+In this repo there are Active Record executable scripts and a couple Ruby scripts
+for my lab at RailsConf 2015 on Contributing to Rails.
+
+### Running the scripts
 
 To run:
 
 ```
-cd /your/local/rails/copy
+cd railsconf_git/
 bundle exec ruby railsconf_scripts/ar_script_name.rb
 ```
-
-If you don't have Rails source repo, just clone these anywhere on your filesystem.
 
 ## Practicing Git
 
