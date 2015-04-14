@@ -15,6 +15,7 @@ class Project < ActiveRecord::Base
   after_create :call_me
 
   def call_me
+    puts caller
     puts "======== i am a callback ========"
   end
 end
