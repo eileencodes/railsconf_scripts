@@ -31,7 +31,7 @@ class BugTest < Minitest::Test
 
     assert 1, post.comments.count
 
-    post.comments.delete_all
+    puts post.comments.method(:delete_all).source_location
 
     assert 0, post.comments.count
   end

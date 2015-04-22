@@ -28,7 +28,13 @@ class BugTest < Minitest::Test
   def test_trace_point
     user = User.new(name: "My Name")
 
+    tp = TracePoint.new(:call) do |args|
+      p args
+    end
+
+    tp.enable
     user.avatar_attributes = { name: "I am a file name" }
+    tp.disable
 
     user.save!
   end
