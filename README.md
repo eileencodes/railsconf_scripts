@@ -1,6 +1,6 @@
 # RailsConf Scripts
 
-This repo includes scripts for pracitcing the tools we will learn at RailsConf.
+This repo includes scripts for practicing the tools we will learn at RailsConf.
 
 First clone the repo, then install the cached gems:
 
@@ -47,4 +47,4 @@ bundle exec ruby ar_script_example.rb
 Checkout the `practicing-git` branch.
 
 The `practicing-git` branch is a branch for practicing git commands for my RailsConf
-lab on contributing to Rails. Please see that branch for git the git commands.
+lab on contributing to Rails. Please see that branch for the git commands.
